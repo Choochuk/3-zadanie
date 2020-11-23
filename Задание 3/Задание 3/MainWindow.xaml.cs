@@ -26,7 +26,7 @@ namespace Задание_3
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
- 
+
         {
             int x = Convert.ToInt32(stroka.Text);
             string text = Convert.ToString(dannie.Text);
@@ -39,8 +39,16 @@ namespace Задание_3
                 text = text.Replace("*g*", "**");
 
 
-
+                for (int i = 0; i < 100; i++)
+                {
+                    text = text.Replace("**", "**");
+                }
+                vdannie.Text = Convert.ToString(text);
             }
-        } 
+            else
+            {
+                vdannie.Text = Convert.ToString("Ошибка");
+            }
+        }
     }
 }

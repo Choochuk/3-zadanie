@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Background>
-        <ImageBrush ImageSource="C:\Users\piupi\Desktop\3задания2\3-zadanie\Задание 3\090909"/>
+        <ImageBrush ImageSource="C:\Users\Маша\Desktop\3 практич работа\3-zadanie\Задание 3\090909"/>
     </Window.Background>
     <Grid>
         <TextBox x:Name="stroka" Width="60" Height="30" Margin="414,103,319.6,287" FontSize="16">
