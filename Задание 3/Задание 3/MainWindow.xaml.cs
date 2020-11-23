@@ -26,8 +26,21 @@ namespace Задание_3
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
+ 
         {
+            int x = Convert.ToInt32(stroka.Text);
+            string text = Convert.ToString(dannie.Text);
 
-        }
+            if (text.Length == x)
+            {
+                text = text.Replace("ogogo", "***");
+                text = text.Replace("ogo", "***");
+                text = text.Replace("*go", "*");
+                text = text.Replace("*g*", "**");
+
+
+
+            }
+        } 
     }
 }

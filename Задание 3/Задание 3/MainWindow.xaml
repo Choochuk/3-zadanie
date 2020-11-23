@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Background>
-        <ImageBrush ImageSource="C:/Users/user/Desktop/мои фото/Загрузки/55e63d2f47e02.png"/>
+        <ImageBrush ImageSource="C:\Users\piupi\Desktop\3задания2\3-zadanie\Задание 3\090909"/>
     </Window.Background>
     <Grid>
         <TextBox x:Name="stroka" Width="60" Height="30" Margin="414,103,319.6,287" FontSize="16">
@@ -16,7 +16,7 @@
         </TextBox>
         <TextBox x:Name="vdannie" Height="60" Margin="273,277,75.6,83" FontSize="16">
         </TextBox>
-        <Button Width="80" Height="60" Click="Button_Click" Margin="112,230,601.6,130" FontSize="16" Background="LightPink" FontStyle="Normal" FontWeight="Bold">Заменить
+        <Button Width="100" Height="60" Click="Button_Click" Margin="112,230,601.6,130" FontSize="16" Background="LightPink" FontStyle="Normal" FontWeight="Bold">Заменить
         </Button>
         <TextBlock Width="150" Height="30" FontSize="16" FontStyle="Normal" FontWeight="Bold" Margin="118,172,525.6,218">
             Входные данные
